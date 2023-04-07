@@ -1,0 +1,30 @@
+﻿@model Cobala.Models.Tintuc
+<h3>Edit Product</h3>
+<form method="post" asp-controller="new" asp-action="edit" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" asp-for="Name" /></td>
+        </tr>
+
+        <tr>
+            <td>Decription</td>
+            <td><input type="text" asp-for="Description" /></td>
+        </tr>
+        <tr>
+            <td>Photo</td>
+            <td><input type="checkbox" asp-for="Photo" /></td>
+        </tr>
+       @* <tr>
+            <td>Status</td>
+            <td><input type="checkbox" asp-for="Status" /></td>
+        </tr>*@
+
+        <tr>
+            <td>
+                <input type="submit" value="Save" />
+                <input type="hidden" asp-for="Id" />
+            </td>
+        </tr>
+    </table>
+</form>

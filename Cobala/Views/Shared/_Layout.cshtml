@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/User/Home.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link href="https://demos.creative-tim.com/soft-ui-design-system/assets/css/nucleo-svg.css" rel="stylesheet" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+   
+    <div class="row p-2 nav-header" style=" margin-top: -16px">
+        <div class="col-md-6">
+            <div class="">
+                <a href="tel:0914134942" class="fa fa-phone text-white text-sm ms-auto"
+                   aria-hidden="true" style="text-decoration:none">
+                    <span class="text-sm text-white ms-2">+914134942</span>
+                </a> 
+                <a href="https://www.facebook.com/cobalagovap" style="text-decoration:none">
+                    <i class="fa fa-facebook-square text-white ms-4 " aria-hidden="true"></i>
+                </a>
+                <a href="mailto:trungtamcobala@gmail.com"
+                   style="text-decoration:none">
+                    <span class="text-sm text-white ms-2 me-lg-0 me-auto">trungtamcobala@gmail.com</span>
+                    <i href="mailto:trungtamcobala@gmail.com" class="fa fa-envelope text-white text-sm ms-4" aria-hidden="true"></i>
+
+                </a>
+                
+            </div>
+        </div>
+        <div class="col-md-6 header-home">
+            <div>
+                <input type="search" class="form-control" placeholder="Search" />
+
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm" id="nav-menus">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="display:flex" href="#">
+                <img src="~/Upload/logo.jpg" width="70px" height="70px" alt="" /><div class="name-logo">
+                    <span>Trung Tâm Hỗ Trợ  </span>
+
+                    <h4>Cỏ Ba Lá </h4>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="container" style="z-index:4">
+                    <div class="row nav-menu">
+                        <div class="col-md-1" style="display:flex">
+                        </div>
+                        <div class="col-md-2">
+                            <a asp-controller="home" asp-action="index">Trang Chủ</a>
+                        </div>
+                        <div class="col-md-2">
+                            <a asp-controller="new" asp-action="index">Tin Tức</a>
+                        </div>
+                        <div class="col-md-3">
+                            <a asp-controller="curriculum" asp-action="index">Chương Trình Học </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a asp-controller="aboutus" asp-action="index">Về Chúng Tôi </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a asp-controller="contact" asp-action="index">Liên Hệ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <hr />
+
+    @RenderBody()
+
+    <div class="row footers">
+        <div class="col-md-1">
+        </div>
+        <div class="col-md-3">
+            <h4>Về chúng tôi</h4>
+            <p style="color:white">
+                Trung tâm Hỗ trợ Phát triển Giáo dục Hòa nhập Cỏ Ba Lá thành lập với mục đích giúp đỡ trẻ em khuyết tật và trẻ em có hoàn cảnh khó khăn ở Cỏ Ba Lá và các khu vực lân cận.
+
+            </p>
+        </div>
+        <div class="col-md-2">
+            <h4>Cơ sở chúng tôi</h4>
+            <a style="color:white"><h6>855/14 Nguyễn  Duy Cung Phường 12 Quận Gò Vấp  Tp.HCM</h6></a>
+            <a href="tel:0914134942" class="fa fa-phone text-white text-sm ms-auto" aria-hidden="true" style="text-decoration:none">
+                <span class="text-sm text-white ms-2">+914 134 942</span>
+            </a>
+            <a href="tel:0338944557" class="fa fa-phone text-white text-sm ms-auto" aria-hidden="true" style="text-decoration:none">
+                <span class="text-sm text-white ms-2">+338 944 557</span>
+            </a>
+           
+           
+        </div>
+        <div class="col-md-2 thea">
+            <h4>Các lớp học</h4>
+            <a href=""> <p>Năng Khiếu Vẽ</p></a>
+            <a href=""> <p>Lớp Học AEROBIC</p></a>
+            <a href=""> <p>Kĩ Năng Giao Tiếp </p></a>
+           
+        </div>
+        <div class="col-md-3">
+            <h4>Đăng kí</h4>
+            <p style="color:white">Đăng ký để nhận được được thông tin mới nhất từ chúng tôi.</p>
+           <a href="https://www.facebook.com/cobalagovap" style="text-decoration:none">
+                <i class="fa fa-facebook-square text-white ms-4 " aria-hidden="true"> 👉 </i>
+                <span style="color:white">Trung Tâm Hỗ Trợ Phát Triển Giáo Dục Hoà Nhập Cỏ Ba Lá - Gò Vấp</span>
+            </a><br />
+            <a href="mailto:trungtamcobala@gmail.com" class="fa fa-envelope" style="text-decoration:none">
+                <span class="text-sm text-white ms-2 me-lg-0 me-auto">loopple@loopple.com</span>
+
+            </a>
+        </div>
+
+        <div class="col-md-1"></div>
+    </div>
+</body>
+
+</html>

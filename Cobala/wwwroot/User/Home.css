@@ -1,0 +1,253 @@
+﻿* {
+    font-family: sans-serif;
+}
+
+.nav-header {
+    position: fixed;
+    width: 101%;
+    z-index: 1;
+    background-color: #30AA51;
+}
+
+.name-logo h4 {
+    color: tomato;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+.nav-menu {
+    padding: 15px;
+    color: #393d72;
+    font-family: sans-serif;
+}
+
+    .nav-menu a {
+        font-weight: 700;
+        font-size: 20px;
+        cursor: pointer;
+        color:tomato;
+        text-decoration: none;
+    }
+
+        .nav-menu a:hover {
+            color: hotpink;
+        }
+
+#nav-menus {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: 35px;
+    background-color: aliceblue;
+}
+
+.header-one {
+    color: #393d72;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-around;
+}
+/*chuong trinh hoc*/
+.program h5 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.program h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.education div {
+    border-radius: 15px 50px;
+}
+
+.commentpas h5 {
+    text-align: center;
+    margin-top: 50px;
+    color: hotpink;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.commentpas h1 {
+    text-align: center;
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.commentpel {
+    border-bottom: 1px solid tomato;
+    border-end-end-radius: 30px 30px;
+    border-right: 1px solid tomato;
+}
+
+    .commentpel h6 {
+        text-align: center;
+        color: hotpink;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+/* .commentpel:hover {
+        margin-top: 20px;
+        border-bottom: 1px solid green;
+        transform:
+    }*/
+.buoihoc h4 {
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.buoihoc h5 {
+    text-align: center;
+    color: hotpink;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.buoihoc h1 {
+    text-align: center;
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.hoc p {
+    color: tomato;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.hocbai {
+    border-radius: 15px 50px;
+}
+
+.footers h4 {
+    padding-top: 10px;
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.footers {
+    font-family: sans-serif;
+    background-color: #62b669;
+}
+
+.thea > a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.thea a:hover {
+    color: tomato;
+    font-weight: bold;
+}
+
+.tintuc {
+    margin: 15px;
+}
+
+.new {
+    margin-top: 90px;
+    color: tomato;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/*contact*/
+.lienhe h2 {
+    margin-top: 150px;
+    text-align: center;
+    color: hotpink;
+    font-weight: bold;
+}
+
+.lienhes h4 {
+    text-align: center;
+    color: hotpink;
+    font-weight: bold;
+}
+
+.lienhes h1 {
+    text-align: center;
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.phone1 {
+    display: flex;
+    padding: 10px;
+}
+
+    .phone1 h4 {
+        padding-left: 50px;
+        padding-top:20px;
+        font-weight: bold;
+        color: #393d72;
+    }
+    .phone1 h4:hover {
+        padding-left: 50px;
+        padding-top: 20px;
+        font-weight: bold;
+        color: tomato;
+    }
+
+.phones > a {
+    text-decoration: none;
+    color: #393d72;
+    font-size:20px;
+    text-align:center;
+}
+/*chuong trinh hoc */
+.chuongtrinhs h4 {
+    margin-top: 150px;
+    text-align: center;
+    color: hotpink;
+    font-weight: bold;
+}
+.chuongtrinhs h1 {
+    color: #393d72;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom:50px;
+}
+.chuongtrinh {
+    border-radius: 30px;
+}
+.chuongtrinh img{
+    text-align:center;
+    margin-left:100px;
+}
+.chuongtrinh h4 {
+    color: #393d72;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+}
+/*About us*/
+.abouts h1 {
+    color: #393d72;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+.abouts {
+    border-radius:20px;
+    margin:50px;
+    margin-right:50px;
+}
+.hinhanh h2{
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.aboutus{
+    margin-top:150px;
+}

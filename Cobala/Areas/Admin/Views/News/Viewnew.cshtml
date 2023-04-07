@@ -1,0 +1,36 @@
+﻿@{
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@model Cobala.Models.Tintuc
+<div class="row">
+
+    <div class="col-md-12 ml-5 m-5 ">
+        <h1 class="mb-5" style="color:tomato">View Category </h1>
+        <div class="row">
+
+
+            <table class="table table-striped">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Edit</th>
+                    <th>Status</th>
+                </tr>
+                @foreach (var tintuc in ViewBag.tintuces)
+                {
+                    <tr>
+                        <td>@tintuc.Id</td>
+                        <td>@tintuc.Name</td>
+                        <td>@tintuc.Decription</td>
+                        <td>@tintuc.Photo</td>
+
+                        <td><a asp-controller="category" asp-action="edit" asp-route-id="@tintuc.Id">Edit</a></td>
+                        @*<td>@(category.Status ? "show" : "hide")</td>*@
+                    </tr>
+                }
+            </table>
+
+        </div>
+
+    </div>
+</div>
