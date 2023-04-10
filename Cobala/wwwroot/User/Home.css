@@ -47,10 +47,10 @@
     font-weight: bold;
 }
 
-.header-bar {
+/*.header-bar {
     display: flex;
     justify-content: space-around;
-}
+}*/
 /*chuong trinh hoc*/
 .program h5 {
     text-align: center;
