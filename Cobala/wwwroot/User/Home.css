@@ -86,7 +86,12 @@
     border-end-end-radius: 30px 30px;
     border-right: 1px solid tomato;
 }
-
+    .commentpel h5 {
+        text-align: center;
+        color: #081879;
+        font-weight: bold;
+        margin-top: 10px;
+    }
     .commentpel h6 {
         text-align: center;
         color: hotpink;
@@ -237,6 +242,14 @@
     color: #393d72;
     font-weight: bold;
     font-family:sans-serif;
+    padding:20px;
+}
+.abouts p{
+    padding:20px;
+    font-family:sans-serif;
+    font-size:20px;
+       
+
 }
 .abouts {
     border-radius:20px;
@@ -250,4 +263,14 @@
 }
 .aboutus{
     margin-top:150px;
+}
+.aboutteacher h1 {
+    color: #393d72;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 20px;
+}
+.aboutteacher p {
+    font-family: sans-serif;
+    font-size: 20px;
 }
