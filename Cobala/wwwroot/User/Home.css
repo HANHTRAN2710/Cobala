@@ -25,7 +25,7 @@
         font-weight: 700;
         font-size: 20px;
         cursor: pointer;
-        color:tomato;
+        color: tomato;
         text-decoration: none;
     }
 
@@ -33,12 +33,31 @@
             color: hotpink;
         }
 
-#nav-menus {
+/*#nav-menus {
     position: fixed;
     width: 100%;
     z-index: 2;
-    margin-top: 35px;
+    margin-top: 23px;
     background-color: aliceblue;
+}*/
+@media screen and (min-width: 800px) {
+    #nav-menus {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        margin-top: 23px;
+        background-color: aliceblue;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #nav-menus {
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        margin-top: 35px;
+        background-color: aliceblue;
+    }
 }
 
 .header-one {
@@ -86,12 +105,14 @@
     border-end-end-radius: 30px 30px;
     border-right: 1px solid tomato;
 }
+
     .commentpel h5 {
         text-align: center;
         color: #081879;
         font-weight: bold;
         margin-top: 10px;
     }
+
     .commentpel h6 {
         text-align: center;
         color: hotpink;
@@ -194,22 +215,23 @@
 
     .phone1 h4 {
         padding-left: 50px;
-        padding-top:20px;
+        padding-top: 20px;
         font-weight: bold;
         color: #393d72;
     }
-    .phone1 h4:hover {
-        padding-left: 50px;
-        padding-top: 20px;
-        font-weight: bold;
-        color: tomato;
-    }
+
+        .phone1 h4:hover {
+            padding-left: 50px;
+            padding-top: 20px;
+            font-weight: bold;
+            color: tomato;
+        }
 
 .phones > a {
     text-decoration: none;
     color: #393d72;
-    font-size:20px;
-    text-align:center;
+    font-size: 20px;
+    text-align: center;
 }
 /*chuong trinh hoc */
 .chuongtrinhs h4 {
@@ -218,59 +240,79 @@
     color: hotpink;
     font-weight: bold;
 }
+
 .chuongtrinhs h1 {
     color: #393d72;
     text-align: center;
     font-weight: bold;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
+
 .chuongtrinh {
     border-radius: 30px;
 }
-.chuongtrinh img{
-    text-align:center;
-    margin-left:100px;
-}
-.chuongtrinh h4 {
-    color: #393d72;
-    font-weight:bold;
-    font-size: 20px;
-    text-align: center;
-}
+
+    .chuongtrinh img {
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .chuongtrinh h4 {
+        color: #393d72;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    }
 /*About us*/
 .abouts h1 {
     color: #393d72;
     font-weight: bold;
-    font-family:sans-serif;
-    padding:20px;
+    font-family: sans-serif;
+    padding: 20px;
 }
-.abouts p{
-    padding:20px;
-    font-family:sans-serif;
-    font-size:20px;
-       
 
+.abouts p {
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
+
 .abouts {
-    border-radius:20px;
-    margin:50px;
-    margin-right:50px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-right: 50px;
 }
-.hinhanh h2{
+
+.hinhanh h2 {
     color: #393d72;
     font-weight: bold;
     font-family: sans-serif;
 }
-.aboutus{
-    margin-top:150px;
+
+.aboutus {
+    margin-top: 150px;
 }
+
 .aboutteacher h1 {
     color: #393d72;
     font-weight: bold;
     font-family: sans-serif;
     padding: 20px;
 }
+
 .aboutteacher p {
     font-family: sans-serif;
     font-size: 20px;
+}
+/*img about us*/
+@media screen and (min-width: 800px) {
+    .slideshowimg img {
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .slideshowimg img {
+        height: 300px;
+    }
 }
