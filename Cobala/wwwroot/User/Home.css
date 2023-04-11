@@ -4,9 +4,11 @@
 
 .nav-header {
     position: fixed;
-    width: 101%;
+    width: 100%;
     z-index: 1;
-    background-color: #30AA51;
+    background-color: black;
+    top:0;
+    padding: 1px
 }
 
 .name-logo h4 {
@@ -25,7 +27,7 @@
         font-weight: 700;
         font-size: 20px;
         cursor: pointer;
-        color: tomato;
+        color: black;
         text-decoration: none;
     }
 
